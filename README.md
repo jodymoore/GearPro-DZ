@@ -25,8 +25,9 @@
   border-radius: 10px;
 }
 
-#footer {
-text-align:center;
+footer {
+    text-align:center;
+}
 </style>
 
 <div id="logo">
