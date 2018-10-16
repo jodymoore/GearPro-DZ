@@ -29,7 +29,7 @@
 <h3>GearPro<em>D<span>z</span></em></h3> 
 </div>
 
- Welcome to GearPro Dz s
+## Welcome to GearPro Dz s
 
 GearPro Dz is a Drop Zone Gear Management System. 
 
@@ -42,7 +42,7 @@ GearPro Dz is a Drop Zone Gear Management System.
 - In sequence or out of sequence log entries
 - Full parachute lor record with repack info
 
- Download Packing Control Dashboard
+### Download Packing Control Dashboard
 
 
 
