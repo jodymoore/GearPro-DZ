@@ -9,6 +9,7 @@
 #logo h3{
   font-size: 400%;
   line-height: 200px;
+  font-weight: bold;
   font-family: "Roboto";
   color: #FFFFFF;
 }
