@@ -45,6 +45,7 @@ GearPro Dz is a Drop Zone Gear Management System.
 - Full parachute log record with repack info.
 
 ### Download Packing Control Dashboard
+<div>
                      <form id="form3" class="form-horizontal" role="form" method="POST" action="">
 
                             <label id="emaillabel" for="email" class="col-md-10 control-label">Email</label><br>
@@ -67,7 +68,7 @@ GearPro Dz is a Drop Zone Gear Management System.
                         </div>
                     </form>
   
-  </form>
-
+  
+<div>
 
 
