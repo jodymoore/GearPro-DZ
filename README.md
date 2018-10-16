@@ -22,6 +22,7 @@
   text-align: center;
   height: 200px;
   background-color: grey;
+  border-radius: 10px;
 }
 </style>
 
