@@ -28,7 +28,8 @@
 <div id="logo">
 <h3>GearPro<em>D<span>z</span></em></h3> 
 </div>
-
+<br>
+<br>
 ## Welcome to GearPro Dz 
 
 GearPro Dz is a Drop Zone Gear Management System. 
