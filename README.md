@@ -37,6 +37,10 @@ GearPro Dz is a Drop Zone Gear Management System.
 - Maintain logbooks on parachute systems
 - Track contractor packs
 - Maintain accurate log records
+- Add and remove parachute systems
+- Manage packing team 
+- In sequence or out of sequence log entries
+- Full parachute lor record with repack info
 
 ### Download Packing Control Dashboard
 
