@@ -31,15 +31,12 @@
 
 ## Welcome to GearPro Dz 
 
-GearPro Dz is a Drop Zone Gear Management System 
+GearPro Dz is a Drop Zone Gear Management System. 
 
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+- Track pack jobs
+- Maintain logbooks on parachute systems
+- Track contractor packs
+- Maintain accurate log records
 
 **Bold** and _Italic_ and `Code` text
 
