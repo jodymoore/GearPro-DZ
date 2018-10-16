@@ -1,4 +1,30 @@
- <div id="logo">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');   
+
+#logo em{
+  font-size: 55%;
+  color: #000000;
+}
+
+#logo h3{
+  font-size: 400%;
+  line-height: 200px;
+  font-family: "Roboto";
+  color: #FFFFFF;
+}
+
+#logo span {
+  color:red;    
+}
+
+#logo {
+  text-align: center;
+  height: 200px;
+  background-color: grey;
+}
+</style>
+
+<div id="logo">
 <h3>GearPro<em>D<span>z</span></em></h3> 
 </div>
 
