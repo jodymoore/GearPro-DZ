@@ -1,3 +1,7 @@
+ <div id="logo">
+<h3>GearPro<em>D<span>z</span></em></h3> 
+</div>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jodymoore/gearpro-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
