@@ -55,7 +55,7 @@ GearPro Dz is a Drop Zone Gear Management System.
 
 <br>                        
 
-                        </div>
+                       
 <br>
 
                         <div  class="form-group">
