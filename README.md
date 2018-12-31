@@ -31,7 +31,7 @@ footer {
 </style>
 
 <div id="logo">
-<h3>GearPro<em>D<span>z</span></em></h3> 
+<a href="http://gearpro.jodymoore.net/login" ><h3>GearPro<em>D<span>z</span></em></h3> </a>
 </div>
 <br>
 
