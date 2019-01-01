@@ -21,3 +21,10 @@
   height: 200px;
   background-color: grey;
 }
+
+#logo a:hover {
+        background-image: -webkit-linear-gradient(270deg,rgba(253,252,252,1.00) 16.39%,rgba(255,255,255,0.25) 100%);
+        background-image: -moz-linear-gradient(270deg,rgba(253,252,252,1.00) 16.39%,rgba(255,255,255,0.25) 100%);
+        background-image: -o-linear-gradient(270deg,rgba(253,252,252,1.00) 16.39%,rgba(255,255,255,0.25) 100%);
+        background-image: linear-gradient(180deg,rgba(253,252,252,1.00) 16.39%,rgba(255,255,255,0.25) 100%);
+}
