@@ -51,11 +51,11 @@ GearPro Dz is a Drop Zone Gear Management System.
 - Full parachute log record with repack info.
 - Line set Tracking 
 
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image1.png" >
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image8.png" >
 
 <img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image2.png" >
 
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image8.png" >
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image1.png" >
 
 <img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image10.png" >
 
