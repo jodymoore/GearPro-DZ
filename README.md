@@ -29,7 +29,7 @@ footer {
     text-align:center;
 }
 </style>
-layout: default
+
 <div id="logo">
 <a href="http://gearpro.jodymoore.net/login" ><h3>GearPro<em>D<span>z</span></em></h3> </a>
 </div>
@@ -50,20 +50,6 @@ GearPro Dz is a Drop Zone Gear Management System.
 - In sequence or out of sequence log entries.
 - Full parachute log record with repack info.
 - Line set Tracking 
-
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image8.png" >
-
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image2.png" >
-
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image1.png" >
-
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image10.png" >
-
-<header><h3>Packing Control Dashboard</h3></header>
-
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image9.png" >
-
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image7.png" >
 
 
 
