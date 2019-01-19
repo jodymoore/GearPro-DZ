@@ -58,13 +58,15 @@ GearPro Dz is a Drop Zone Gear Management System.
 
 
 
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image8.png" >
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro11.png" >
 
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image2.png" >
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image12.png" >
 
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image1.png" >
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image13.png" >
 
-<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image10.png" >
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image14.png" >
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image15.png" >
 
 <header><h3>Packing Control Dashboard</h3></header>
 
