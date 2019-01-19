@@ -37,7 +37,7 @@ footer {
 <div id="logo">
 <a href="http://gearpro.jodymoore.net/login" ><h3>GearPro<em>D<span>z</span></em></h3> </a>
 </div>
-<p>Click above to checkout Gearpro Dz<p>
+
 <br>
 
 ## Welcome to GearPro Dz 
