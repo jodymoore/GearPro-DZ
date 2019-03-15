@@ -23,487 +23,260 @@
   </head>
 
 <style>
-/* GearPro Website
-    Version 1.0 Author: Jason Sheppard
-    Comissioned: Jody Moore */
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
-
-:root {
-  /* 
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #cccccc;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-
-    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-*/
-  /* Override Variables */
-  --font-family-sans-serif: 'Source Sans Pro', -apple-system,
-    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol';
-
-  /* Page Variables */
-  --gray-dark: #343a40;
-  --light: #f8f9fa;
-  --gray: #cccccc;
-  --font-family-serif: Merriweather, serif;
-  --color-text: var(--gray);
-  --font-family-text: var(--font-family-serif);
+	body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #6d6d6d;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
 }
-
-.family-sans {
-  font-family: var(--font-family-sans-serif);
+	#downloads {
+    margin-bottom: 40px;
 }
-
-
-body {
-font-family: var(--font-family-text);
-color: var(--color-text);
-font-weight: 200;
-background-color: var(--gray-dark);
+	
+ul li {
+    list-style-position: inside;
+    list-style: disc;
+    padding-left: 20px;
+}	
+	
+/* hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+} */
+header h1 {
+    font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #303030;
+    letter-spacing: -1px;
 }
-
-.fixed-bg{
-background: url(../images/close-up.jpeg);
-min-height: 500px;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+	header h2 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #aaa;
+    letter-spacing: -1px;
 }
-
-.site-header {
+	
+	ul, ol, dl {
+    margin-bottom: 20px;
 }
-.layout-title{
-font-family: var(--font-family-sans-serif);
+	h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #303030;
 }
-.layout-text {
-font-family: var(--font-family-sans-serif);
-font-size: 1.1em;
+	
+	#logo a {
+		text-decoration: none;
+		
+	}
+	
+#container {
+    min-height: 595px;
+    background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
-
-.navbar {
-background: var(--gray-dark);
-overflow:hidden;
-width: 100%;
+	
+#container .inner img {
+    max-width: 100%;
+    margin-bottom:22px;
 }
-
-/*.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}*/
-
-.site-header .layout-hero {
-  min-height: 50vh;
+.inner {
+    width: 620px;
+    margin: 0 auto;
 }
-
-.site-header .page-section-title {
-  font-size: 3em;
-  font-family: var(--font-family-sans-serif);
-  font-weight: 200;
+	p {
+    margin-bottom: 20px;
+    font-weight: 300;
 }
-
-.site-header .page-section-text {
-  font-size: 1.2em;
+header {
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
-
-#Info{
-  background: var(--gray-dark);
+header h2 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #aaa;
+    /* letter-spacing: -1px; */
 }
-
-#Support{
-  background: var(--gray-dark);
+#downloads {
+    margin-bottom: 40px;
 }
-#image1 {
-    width: 300px;
-
+h1 {
+    font-size: 32px;
 }
-#tutorVideo {
-    overflow-x: scroll;
-    height: 225px;
+section {
+    display: block;
 }
-
-a h6 {
+p {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #aaa;
+    background: transparent url(../images/hr.png) 0 0 no-repeat;
+}
+	footer {
     text-align: center;
 }
-
-a {
-    text-decoration: none;
-    color: white;
+footer a {
+    color: #666;
 }
-
-
-.layout-image {
-    width: 200px;
-    margin-right: 10px;
+@import url('https://fonts.googleapis.com/css?family=Roboto');   
+h2 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #303030;
 }
-
-#ipadImage {
-    width: 600px
+#logo em{
+  font-size: 55%;
+  color: #000000;
 }
-
-#Contact{
-  background: var(--gray-dark);
+#logo h3{
+  font-size: 400%;
+  line-height: 200px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #FFFFFF;
 }
-
-#About{
-  background: var(--gray-dark);
+#logo span {
+  color:red;    
 }
-
-.page-section-header .page-section-title {
-  font-size: 4em;
-  font-family: var(--font-family-sans-serif);
-  font-weight: 200;
-  color: var(--purple);
+	
+.headerFour {
+    margin-bottom: -16px;		
 }
-
-.page-section-header .page-section-text {
-  font-size: 1.2em;
-  font-weight: 200;
+logo a {
+   text-decoration: none;
 }
-
-
-
-
+#logo {
+  text-align: center;
+  height: 200px;
+  background-color: rgb(90,90,90);
+  border-radius: 10px;
+	margin-bottom: -16px;
+}
+footer {
+    text-align:center;
+}	
 </style>
 
-<!-- GearPro Website
-    Version 1.0 Author: Jason Sheppard
-    Comissioned: Jody Moore -->
-<!doctype html>
-<html lang="en">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="icon" href="https://s3.amazonaws.com/jwm-product-images/gearproImages/parachuteImage.ico" type="image/x-icon" />
+  <body>
+    <div id="container">
+      <div class="inner">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <script defer src="js/lib/fontawesome-all.min.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/style.css">
-    <!-- Add icon named "favicon.jpg" and uncomment if desired 
-    <link rel="icon" href="favicon.jpg" type="image/x-icon">-->
-  <title>GearPro</title>
-</head>
+<!--         <header>
+		<h1>GearPro-GMS</h1>
+		<h3>Gearpro-Gear Managment System</h3>
+        </header> -->
+        <section id="downloads" class="clearfix">
+          
+	
+        </section>
+        <hr>
+        <section id="main_content">
 
-<body data-spy="scroll" data-target=".site-nav" data-offset="55">
-    
-<header id="page-hero" class="site-header">
-      
-<div class=Video>
-    <iframe width="100%" height="700" src="https://www.youtube.com/embed/ht2TigJp88w?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<link rel="icon" href="https://s3.amazonaws.com/jwm-product-images/gearproImages/parachuteImage.ico" type="image/x-icon" />
+<div id="logo">
+<a href="http://gearprogms.com/login" ><h3>GearPro<em>D<span>z</span></em></h3> </a>
 </div>
-      
-    <nav class="navbar family-sans text-uppercase navbar navbar-expand-md navbar-dark fixed-top">
+<h4> Click above to checkout Gearpro Dz</h4>
+<br>
 
-      <div class="container-fluid">
+		<h2> Welcome to GearPro Dz </h2>
 
-        <a class="navbar-brand" href="#page-hero">
-          <img src="images/gearProLogo1.png"></a>
+GearPro Dz is a Drop Zone Gear Management System. 
 
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="#myTogglerNav"
-          aria-label="Toggle Navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<h4 class="headerFour">4 Account types </h4>
+<ul>
+	<li>Drop zone Manager</li>
+	<li>Packer</li>
+	<li>Rigger</li>
+	<li>Skydiver</li>
+</ul>
 
-        <section class="collapse navbar-collapse" id="myTogglerNav">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#page-hero">Home</a>
-            <a class="nav-item nav-link" href="#Info">Info</a>
-            <a class="nav-item nav-link" href="#Support">Support</a>
-            <a class="nav-item nav-link" href="#Contact">Contact</a>
-            <a class="nav-item nav-link" href="#About">About</a>
-          </div>
+
+<h4 class="headerFour" > Features </h4>
+		
+<ul>
+	<li>Track pack jobs.</li>
+	<li>Maintain logbooks on parachute systems.</li>
+	<li>Track contractor packs.</li>
+	<li>Full accounting on contractor pack jobs.</li>
+	<li>Add comments to parachute records.</li>
+	<li>Maintain accurate log records.</li>
+	<li>Add and remove parachute systems.</li>
+	<li>Manage packing team. </li>
+	<li>In sequence or out of sequence log entries.</li>
+	<li>Full parachute log record with repack info.</li>
+	<li>Line set Tracking</li>
+</ul>
+
+
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-01.png" >
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-22.png" >
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-03.png" >
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-23.png" >
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-05.png" >
+
+<header><h3>Packing Control Dashboard</h3></header>
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-06.png" >
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-07.png" >
+
+<img src="https://s3.amazonaws.com/jwm-product-images/gearproImages/gearpro-image-21.png" >
+
+
+<h4>Tuturial video links </h4>
+
+<a href="https://drive.google.com/file/d/1LPIqkViFlPkRKgNST60XSfaqDiibVHhx/view" > Quik start video </a><br>
+
+<a href="https://drive.google.com/file/d/1KFL4Z_M0Fp_9YMRbBedEaXRvAkAT35x5/view" > Signup Packer and Rigger Account </a><br>
+
+<a href="https://drive.google.com/file/d/1SBR-jd2NujyMS8k64AA9xVopVmSoM83P/view" > Add Packing team and Rigger team </a><br>
+
+<a href="https://drive.google.com/file/d/17E16WGL603J8-9kZVWjMO35oc2Jx6VKJ/view" > Setup Packing Control Dashboard account </a><br>
+
+<a href="https://drive.google.com/file/d/1iXdbkSGXS6JqM_O5531IID63XLVoHOrQ/view" > Quik look Usage Reports</a><br>
+
+<a href="https://drive.google.com/file/d/1-AaVRmZKLWbj6BoI7m3IfCeSeMxYOoOF/view" > Update Contractor Services</a><br>
         </section>
 
+        <footer>
+        
+          Gearpro-GMS  is maintained by <a href="https://github.com/jodymoore">jodymoore</a><br>
+        
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
+        </footer>
+
       </div>
+    </div>
 
-    </nav>
-
-
-  </header>
-
+    
   
-  <article id="Info" class="page-section">
 
-    <div class="layout-nested container py-5">
-
-      <div class="row justify-content-center">
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-9">
-              <h2 class="layout-title">Introducing GearPro</h2>
-             <p class="layout-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida auctor ligula, sit amet viverra leo porttitor non. Mauris augue ex, aliquet vitae massa et, semper tincidunt risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin in nisi at porta. Nulla ac nulla luctus magna dictum luctus sed ut ex. Fusce ut nisl sapien. Suspendisse porttitor ut turpis ut sodales. Sed sit amet arcu vitae libero fermentum lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec pulvinar augue non nibh scelerisque luctus. Suspendisse ut imperdiet ipsum, id aliquam ante. Nam at eros eget urna viverra tristique. Morbi vehicula mauris non condimentum iaculis.</p>
-            </section>
-          </div>
-
-        </section>
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-3">
-              <img id="image1" class="layout-image" src="images/0.jpg" alt="dummy image.">
-            </section>
-
-            <section class="col-lg-9">
-              
-            </section>
-          </div>
-        </section>
-      </div>
-    </div>
-  </article>
-
-<div class="fixed-bg"></div>
-    
-<article id="Support" class="page-section">
-
-    <div class="layout-nested container py-5">
-
-      <div class="row justify-content-center">
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-9">
-              <h2 class="layout-title">Support</h2>
-              <p class="layout-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida auctor ligula, sit amet viverra leo porttitor non. Mauris augue ex, aliquet vitae massa et, semper tincidunt risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin in nisi at porta. Nulla ac nulla luctus magna dictum luctus sed ut ex. Fusce ut nisl sapien. Suspendisse porttitor ut turpis ut sodales. Sed sit amet arcu vitae libero fermentum lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec pulvinar augue non nibh scelerisque luctus. Suspendisse ut imperdiet ipsum, id aliquam ante. Nam at eros eget urna viverra tristique. Morbi vehicula mauris non condimentum iaculis.</p>
-            </section>
-          </div>
-
-        </section>
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-3">
-              <img id="ipadImage" class="layout-image" src="images/image-01.png" alt="dummy image.">
-            </section>
-
-            <section class="col-lg-9">
-           
-            </section>
-          </div>
-        </section>
-      </div>
-    </div>
-  </article>
-    
-    <div class="fixed-bg"></div>
-    
-<article id="Support2" class="page-section">
-
-    <div class="layout-nested container py-5">
-
-      <div class="d-flex justify-content-center">
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-9">
-              <h2 class="layout-title">Tutorial Video's</h2>
-
-            </section>
-          </div>
-
-        </section>
-
-    <section id="tutorVideo" class="layout-multicolumn container">
-
-      <div class="d-flex  family-sans text-uppercase">
-
-       
-          <a href="https://drive.google.com/file/d/1LPIqkViFlPkRKgNST60XSfaqDiibVHhx/view" ><img class="layout-image" src="images/image-01.png" alt="Monster Image 02"> <h6 class="layout-title pt-2">Quick Start</h6></a>
-          
-     
-
-        
-          <a href="https://drive.google.com/file/d/1KFL4Z_M0Fp_9YMRbBedEaXRvAkAT35x5/view" ><img class="layout-image" src="images/image-01.png" alt="Monster Image 02"><h6 class="layout-title pt-2">Packer and Rigger Account</h6> </a>
-          
-    
-        
-          <a href="https://drive.google.com/file/d/1SBR-jd2NujyMS8k64AA9xVopVmSoM83P/view" ><img class="layout-image" src="images/image-01.png" alt="Monster Image 02"> <h6 class="layout-title pt-2">Add Teams</h6> </a>
-         
-    
-
-        
-          <a href="https://drive.google.com/file/d/17E16WGL603J8-9kZVWjMO35oc2Jx6VKJ/view" > <img class="layout-image" src="images/image-01.png" alt="Monster Image 02"><h6 class="layout-title pt-2">Setup PCD account</h6> </a>
-          
-    
-
-
-        
-          <a href="https://drive.google.com/file/d/1LPIqkViFlPkRKgNST60XSfaqDiibVHhx/view" ><img class="layout-image" src="images/image-01.png" alt="Monster Image 02"><h6 class="layout-title pt-2">Quik look Usage Reports</h6> </a>
-          
-    
-
-        
-          <a href="https://drive.google.com/file/d/1-AaVRmZKLWbj6BoI7m3IfCeSeMxYOoOF/view" ><img class="layout-image" src="images/image-01.png" alt="Monster Image 02"> <h6 class="layout-title pt-2">Update Contractor Services</h6> </a>
-         
-    
-
-
-
-      </div>
-
-    </section>
-          </div>
-      
-    </div>
-  </article>
-  
-<div class="fixed-bg"></div>
-    
-<article id="Contact" class="page-section">
-
-    <div class="layout-nested container py-5">
-
-      <div class="row justify-content-center">
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-9">
-              <h2 class="layout-title">Contact</h2>
-            </section>
-          </div>
-
-        </section>
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-3">
-                <ul>
-                    <li>E-mail: <a href="mailto: youremailhere">youremailhere.com</a>
-                    <li>Phone: <a href="tel: 1-618-614-0306">1-555-555-5555</a>
-                    <li><img src="facebook-logo.jpg">&nbsp;<a href="https://www.facebook.com/-">GearPro on Facebook</a></li>
-                </ul>
-            </section>
-
-            <section class="col-lg-9">
-              <p class="layout-text">More Contact Information</p>
-            </section>
-          </div>
-        </section>
-      </div>
-    </div>
-  </article>
- 
-
-
-<div class="fixed-bg"></div>
-    
-<article id="About" class="page-section">
-
-    <div class="layout-nested container py-5">
-
-      <div class="row justify-content-center">
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-9">
-              <h2 class="layout-title">About</h2>
-              <p class="layout-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida auctor ligula, sit amet viverra leo porttitor non. Mauris augue ex, aliquet vitae massa et, semper tincidunt risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin in nisi at porta. Nulla ac nulla luctus magna dictum luctus sed ut ex. Fusce ut nisl sapien. Suspendisse porttitor ut turpis ut sodales. Sed sit amet arcu vitae libero fermentum lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec pulvinar augue non nibh scelerisque luctus. Suspendisse ut imperdiet ipsum, id aliquam ante. Nam at eros eget urna viverra tristique. Morbi vehicula mauris non condimentum iaculis.</p>
-            </section>
-          </div>
-
-        </section>
-
-        <section class="col-sm-10 col-md-5 col-lg-5 text-center">
-          <div class="row align-items-center justify-content-center">
-
-            <section class="col-lg-3">
-              <img class="layout-image" src="images/dummy.png" alt="dummy image.">
-            </section>
-
-            <section class="col-lg-9">
-              <p class="layout-text">This is a dummy image</p>
-            </section>
-          </div>
-        </section>
-      </div>
-    </div>
-  </article>
-    
-  <footer class="site-footer bg-secondary text-light d-flex justify-content-center">
-
-    <section class="layout-social py-5">
-
-      <a class="text-light py-2" href="https://twitter.com/">
-        <i class="layout-icon fab fa-twitter"></i>
-      </a>
-      <a class="text-light px-2" href="https://facebook.com/">
-        <i class="layout-icon fab fa-facebook"></i>
-      </a>
-      <a class="text-light px-2" href="https://linkedin.com/">
-        <i class="layout-icon fab fa-linkedin"></i>
-      </a>
-      <a class="text-light px-2" href="https://github.com/">
-        <i class="layout-icon fab fa-github"></i>
-      </a>
-      <a class="text-light px-2" href="https://plus.google.com/">
-        <i class="layout-icon fab fa-google-plus"></i>
-      </a>
-      <a class="text-light px-2" href="https://dribbble.com/">
-        <i class="layout-icon fab fa-dribbble"></i>
-      </a>
-      <a class="text-light px-2" href="https://www.flickr.com">
-        <i class="layout-icon fab fa-flickr"></i>
-      </a>
-      <a class="text-light px-2" href="https://www.youtube.com">
-        <i class="layout-icon fab fa-youtube"></i>
-      </a>
-
-    </section>
-
-  </footer>
-
-  <article id="site-modal" class="modal fade">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <img data-dismiss="modal" class="img-fluid" src="#" alt="Modal Photo">
-      </div>
-    </div>
-  </article>
-
-  <script src="js/lib/jquery.min.js"></script>
-  <script src="js/lib/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
-
-</html>
